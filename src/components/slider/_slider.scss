@@ -1,0 +1,19 @@
+.slide {
+  background-image: url("slider.jpg");
+  background-color: #000000;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 63vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-title {
+  text-align: center;
+  color: #ffff;
+  font-size: 10rem;
+}
