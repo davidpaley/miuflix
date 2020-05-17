@@ -22,36 +22,36 @@ const Features = () => (
             <section className="features" id="features">
               <div className="featureContainer container1">
                 <div className="featureDescription fd1">
-                  <h3>Ver recitales desde tu casa</h3>
-                  <span className="descriptionText">Permite la transmicion <strong>en vivo</strong> de conciertos</span>
+                  <h3 className="textAlign">Ver recitales desde tu casa</h3>
+                  <span className="textAlign">Permite la transmicion <strong>en vivo</strong> de conciertos</span>
                 </div>
                 <div className="imgClass img1" />
               </div>
               <div className="featureContainer container2">
                 <div className="featureDescription fd2">
-                  <h3>Lo mejor para los artistas</h3>
-                  <span className="descriptionText">El musico puede dar un concierto desde la comodidad de su hogar</span>
+                  <h3 className="textAlign">Lo mejor para los artistas</h3>
+                  <span className="textAlign">El musico puede dar un concierto desde la comodidad de su hogar</span>
                 </div>
                 <div className="imgClass img2" />
               </div>
               <div className="featureContainer container1">
                 <div className="featureDescription fd1">
-                  <h3>Nuevas experiencias</h3>
-                  <span className="descriptionText">Los fanaticos tienen la posibilidad de disfrutar a su artista favorito incluso en el medio de la pandemia</span>
+                  <h3 className="textAlign">Nuevas experiencias</h3>
+                  <span className="textAlign">Los fanaticos tienen la posibilidad de disfrutar a su artista favorito incluso en el medio de la pandemia</span>
                 </div>
                 <div className="imgClass img3" />
               </div>
               <div className="featureContainer container2">
                 <div className="featureDescription fd2">
-                  <h3>Soluciones Economicas</h3>
-                  <span className="descriptionText">Los musicos siguen teniendo un ingreso</span>
+                  <h3 className="textAlign">Soluciones Economicas</h3>
+                  <span className="textAlign">Los musicos siguen teniendo un ingreso</span>
                 </div>
                 <div className="imgClass img4" />
               </div>
               <div className="featureContainer container1">
                 <div className="featureDescription fd1">
-                  <h3>Hablando con el publico</h3>
-                  <span className="descriptionText">Distintos tipos de entradas con distintos niveles de interaccion con el artista</span>
+                  <h3 className="textAlign">Hablando con el publico</h3>
+                  <span className="textAlign">Distintos tipos de entradas con distintos niveles de interaccion con el artista</span>
                 </div>
                 <div className="imgClass img5" />
               </div>
