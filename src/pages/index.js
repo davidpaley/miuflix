@@ -1,7 +1,7 @@
 import React from 'react';
 import Features from '../components/features';
 import Slider from '../components/slider';
-import HowTo from '../components/how-to';
+import AboutUs from '../components/about-us';
 import Layout from '../components/layout';
 
 const IndexPage = () => (
@@ -9,7 +9,7 @@ const IndexPage = () => (
         <main>
             <Slider />
             <Features />
-            <HowTo />
+            <AboutUs />
         </main>
     </Layout>
 );

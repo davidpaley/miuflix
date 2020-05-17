@@ -15,16 +15,5 @@
         {
             "title": "Distintos tipos de entradas con distintos niveles de interaccion con el artista"
         }
-    ],
-    "howTo": [
-        {
-            "title": "Prepare a coffee"
-        },
-        {
-            "title": "Run: `npm i` to install the dependencies"
-        },
-        {
-            "title": "Start coding!"
-        }
     ]
 }
