@@ -1,7 +1,81 @@
 .features {
-  background-color: #f4f4f4;
-  padding: 90px 0;
-  &-title {
-    font-weight: bold;
+  .featureContainer {
+    background-color: #f4f4f4;
+    // padding: 90px 0;
+    &-title {
+      font-weight: bold;
+    }
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    @media all and (min-width: 720px) {
+      display: grid;
+      // grid-template-columns: 40% 60%;
+      // grid-template-areas: "featureDescription imgClass";
+    }
+  }
+  .container1 {
+    @media all and (min-width: 720px) {
+      grid-template-columns: 40% 60%;
+    }
+  }
+  .container2 {
+    @media all and (min-width: 720px) {
+      grid-template-columns: 60% 40%;
+    }
+  }
+  .featureDescription {
+    padding: 1em;
+    @media all and (min-width: 720px) {
+      // width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .fd1 {
+    @media all and (min-width: 720px) {
+      order: 1;
+    }
+  }
+  .fd2 {
+    @media all and (min-width: 720px) {
+      order: 2;
+    }
+  }
+  .img1 {
+    background-image: url('streaming-concert.jpg');
+    order: 2;
+  }
+  .img2 {
+    background-image: url('img2.jpg');
+    order: 1;
+  }
+  .img3 {
+    background-image: url('img3.jpg');
+    order: 2;
+  }
+  .img4 {
+    background-image: url('img4.jpg');
+    order: 1;
+  }
+  .img5 {
+    background-image: url('img5.jpg');
+    order: 2;
+  }
+  .imgClass {
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 49vh;
+    // @media all and (min-width: 720px) {
+    //   width: 60%;
+    // }
+  }
+  .descriptionText {
+    text-align: center;
   }
 }
