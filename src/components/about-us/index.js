@@ -17,7 +17,7 @@ const AboutUs = () => (
                       <a href="http://www.synergiar.com/es/" target="_blank">Synergiar</a>: empresa de desarrollo de Software que ha trabajado en proyectos para empresas como Adidas, Guia Oleo, Action Travel, entre otras.
                     </li>
                     <li>
-                      Desarrollo web y celulares
+                      Desarrollo web y mobile
                     </li>
                     <li>
                       Expertos en experiencia de usuario (UX/UI)
