@@ -30,7 +30,7 @@ const Features = () => (
               <div className="featureContainer container2">
                 <div className="featureDescription fd2">
                   <h3 className="textAlign">Lo mejor para los artistas</h3>
-                  <span className="textAlign">El musico puede dar un concierto desde la comodidad de su hogar</span>
+                  <span className="textAlign">El musico puede dar un concierto desde cualquier sitio</span>
                 </div>
                 <div className="imgClass img2" />
               </div>
@@ -44,7 +44,7 @@ const Features = () => (
               <div className="featureContainer container2">
                 <div className="featureDescription fd2">
                   <h3 className="textAlign">Soluciones Economicas</h3>
-                  <span className="textAlign">Los musicos siguen teniendo un ingreso</span>
+                  <span className="textAlign">Los musicos siguen teniendo la posibilidad de seguir recibiendo ingresos, teniendo distintas modalidades como venta de merchandising, interaccion a traves de la aplicacion</span>
                 </div>
                 <div className="imgClass img4" />
               </div>
